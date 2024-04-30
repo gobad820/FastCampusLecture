@@ -1,5 +1,5 @@
 package part3;
-
+//NOTE: 객체 = 상태정보 + 행위정보
 public class Person {
     public String name;
     public int age;
