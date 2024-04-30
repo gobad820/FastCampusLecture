@@ -1,19 +1,21 @@
 package part3;
-//NOTE: 객체 = 상태정보 + 행위정보
+
+// NOTE: 객체 = 상태정보 + 행위정보
+// NOTE: 객체는 4바이트에 할당된다!
 public class Person {
     public String name;
     public int age;
     public String phone;
 
-    public void play() {
-        System.out.println("운동을 한다!");
+    public String play() {
+        return "운동을 한다!";
     }
 
-    public void eat() {
-        System.out.println("음식을 먹다");
+    public String eat() {
+        return "음식을 먹다";
     }
 
-    public void walk() {
-        System.out.println("걷다!");
+    public String walk() {
+        return "걷다!";
     }
 }
